@@ -1,0 +1,4 @@
+20230701	10:04:22	ad5588a5-f0fb-4a92-8916-99b0fbd5c767	Error: Not allowed by CORS
+20230701	10:04:22	5d31ce77-86f9-4cd1-a29f-3730324c0754	Error: Not allowed by CORS
+20230714	20:35:31	ac7eb627-d655-4bfb-ad1a-3196724c25a0	SyntaxError: Unexpected token a in JSON at position 13
+20230721	11:48:17	621882c5-84c0-44ae-861c-2f9e05ed2ac7	SyntaxError: Unexpected end of JSON input
