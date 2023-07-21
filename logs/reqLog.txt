@@ -4705,3 +4705,14 @@
 20230721	21:22:54	2cad886a-dd72-4c89-ac47-3bfa4c1b5ee8	GET	http://localhost:5173	/refresh
 20230721	21:22:55	0fd8966d-c2ad-40f7-b46e-dfddd8bac699	OPTIONS	http://localhost:5173	/vans?user=AdminTest
 20230721	21:22:55	fc6fe3f6-8df8-498a-b826-6a85521f7c19	GET	http://localhost:5173	/vans?user=AdminTest
+20230721	22:05:16	24a0322a-9511-4693-9ae6-193232955469	GET	http://localhost:5173	/refresh
+20230721	22:05:19	df013922-e396-4c36-853f-50b8c4e1c29c	OPTIONS	http://localhost:5173	/vans?user=AdminTest
+20230721	22:05:19	c33700f1-fef2-42ea-a2a3-3af6c42effa5	GET	http://localhost:5173	/vans?user=AdminTest
+20230721	22:06:38	d97c08be-9637-45ad-bfbf-232c92dd5d8a	OPTIONS	https://famous-concha-79d633.netlify.app	/
+20230721	22:06:38	c516649d-bd24-4c08-953c-e19488eb9f7b	GET	https://famous-concha-79d633.netlify.app	/
+20230721	22:07:53	a4e66620-3f7a-4dbb-8792-afad16caddc1	OPTIONS	https://famous-concha-79d633.netlify.app	/
+20230721	22:07:53	baa38ce7-7c65-4809-a820-194c9a9209e7	GET	https://famous-concha-79d633.netlify.app	/
+20230721	22:08:37	dddfb8fd-081a-4c97-a268-84fa8038e7e8	GET	undefined	/employees
+20230721	22:08:38	a1d83156-c565-400f-97c4-c15c874c83f0	GET	undefined	/favicon.ico
+20230721	22:08:38	1d1ab697-e7fc-446c-b951-2fc1314ce30d	GET	undefined	/vans/64b1634177c27cec409618c9
+20230721	22:08:39	1da21d31-81fd-47a1-adc5-73d3f0eb200f	GET	undefined	/favicon.ico

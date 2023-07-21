@@ -2,3 +2,7 @@
 20230701	10:04:22	5d31ce77-86f9-4cd1-a29f-3730324c0754	Error: Not allowed by CORS
 20230714	20:35:31	ac7eb627-d655-4bfb-ad1a-3196724c25a0	SyntaxError: Unexpected token a in JSON at position 13
 20230721	11:48:17	621882c5-84c0-44ae-861c-2f9e05ed2ac7	SyntaxError: Unexpected end of JSON input
+20230721	22:06:38	4ed687e2-4e69-4fb8-8485-67c6ff88f577	Error: Not allowed by CORS
+20230721	22:06:38	3fcf3474-a6fd-42eb-9b95-6c838ba61503	Error: Not allowed by CORS
+20230721	22:07:53	4f0efcc4-8750-4646-9be7-475f9b40ed96	Error: Not allowed by CORS
+20230721	22:07:53	d6899d67-25e6-46d6-88b7-c6ce17e91d66	Error: Not allowed by CORS
