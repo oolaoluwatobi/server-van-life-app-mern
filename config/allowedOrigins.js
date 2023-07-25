@@ -4,7 +4,8 @@ const allowedOrigins = [
   'http://localhost:3500',
   'http://localhost:3000',
   'http://localhost:5173',
-  'https://master--famous-concha-79d633.netlify.app'
+  'https://master--famous-concha-79d633.netlify.app',
+  'https://famous-concha-79d633.netlify.app/'
 ];
 
 module.exports = allowedOrigins
