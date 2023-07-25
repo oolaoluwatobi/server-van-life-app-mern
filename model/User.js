@@ -9,18 +9,15 @@ const userSchema = new Schema({
   },
   firstname: {
     type: String,
-    required: true,
     maxLength: 100
   },
   lastname: {
     type: String,
-    required: true,
     maxLength: 100
   },
   email: {
     type: String,
     unique: true,
-    required: true,
     validate: {
       validator: function(value) {
         return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value);
