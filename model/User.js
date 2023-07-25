@@ -7,24 +7,6 @@ const userSchema = new Schema({
     type: String,
     required: true
   },
-  firstname: {
-    type: String,
-    maxLength: 100
-  },
-  lastname: {
-    type: String,
-    maxLength: 100
-  },
-  email: {
-    type: String,
-    unique: true,
-    validate: {
-      validator: function(value) {
-        return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value);
-      },
-      message: "Invalid email format"
-    }
-  },
   roles: {
     User: {
       type: Number,
