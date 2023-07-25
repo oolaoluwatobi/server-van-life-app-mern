@@ -19,7 +19,7 @@ const getAllUsers = async (req, res) => {
 
   let subscribers = [];
   const users = await User.find({ "quizzes.wk": { $in: ['a'] }})
-  .sort({ firstName: 1 })
+  .sort({ userName: 1 })
   .skip(page * usersPerPage)
   .limit(usersPerPage);
   console.log(users, subscribers, "21: usersCont...")
@@ -43,9 +43,6 @@ const updateUser = async (req, res) => {
     return res.status(400).json({ "message": `No user matches ID ${req.body.id}.`});
   }
   if (req.body?.userName) user.username = req.body.userName;
-  if (req.body?.lastName) user.lastname = req.body.lastName;
-  if (req.body?.firstName) user.firstname = req.body.firstName;
-  if (req.body?.email) user.email = req.body.email; 
   if (req.body?.pwd) user.password = req.body.pwd;
   // if (req.body?.lastname) user.lastname = req.body.lastname;
   const result = await user.save();
