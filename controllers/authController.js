@@ -11,14 +11,17 @@ const handleLogin = async (req, res) => {
   if (!foundUser) return res.sendStatus(401); //unauthorized
   // evaluate password
   
-  // const match = await bcrypt.compare(pwd, foundUser.password);
-  if (pwd === foundUser.password) {
-    match = true
-    if (!match)  return res.sendStatus(405); //unauthorized
-  } 
+  console.log( pwd, foundUser.password, "ln: 14 authCont...")
+  console.log("foundUser:", foundUser, "ln: 15 authCont...")
 
-  console.log("match:", match, pwd, foundUser.password, "ln: 15 authCont...")
-  console.log("foundUser:", foundUser, "ln: 16 authCont...")
+  const match = await bcrypt.compare(pwd, foundUser.password);
+
+  // if (pwd === foundUser.password) {
+  //   match = true
+  //   if (!match)  return res.sendStatus(405); //unauthorized
+  // } 
+  // console.log("match:", match, pwd, foundUser.password, "ln: 15 authCont...")
+
   
   if (match) {
     console.log("match:", match, "ln: 18 authCont...")

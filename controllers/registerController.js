@@ -10,11 +10,11 @@ const handleNewUser = async (req, res) => {
 
   try {
     //encrypt the password
-    // const hashedPwd = await bcrypt.hash(pwd, 10);
+    const hashedPwd = await bcrypt.hash(pwd, 10);
     //create and store the new user
     const result = await User.create({ 
       "username": userName,
-      "password": pwd 
+      "password": hashedPwd
     });
  
     console.log(result, "ln:20 registerController: result");
