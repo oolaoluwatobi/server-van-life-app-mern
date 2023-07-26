@@ -31,11 +31,11 @@ const userSchema = new Schema({
   refreshToken: String
 });
 
-userSchema.pre('save', function (next) {
-  if (this.password) {
-      this.password = hashPassword(this.password)
-  }
-  next()
-})
+// userSchema.pre('save', function (next) {
+//   if (this.password) {
+//       this.password = hashPassword(this.password)
+//   }
+//   next()
+// })
 
 module.exports = mongoose.model('User', userSchema);

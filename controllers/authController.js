@@ -57,6 +57,7 @@ const handleLogin = async (req, res) => {
     }); // secure: true in production
     res.json({ accessToken });
   } else {
+    console.log("match:", match, "ln: 60 authCont...") 
     res.status(401).json({ 'message': 'Password mismatch.'});
   }
 };
