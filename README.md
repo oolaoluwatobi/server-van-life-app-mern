@@ -1,6 +1,6 @@
 # Node.js, Express.js, and MongoDB Backend using MVC Pattern with JWT Authentication and Authorization
 
-![Project Logo](https://your-image-url.com)
+![Project Link]([https://your-image-url.com](https://van-life-app-server.onrender.com/))
 
 This repository contains the backend implementation for a Node.js application built with Express.js and MongoDB, following the Model-View-Controller (MVC) pattern. The backend provides JWT (JSON Web Token) based authentication and authorization mechanisms, along with protected routes to secure access to specific resources. The server exposes RESTful API endpoints to interact with the application.
 
@@ -118,6 +118,7 @@ The backend provides RESTful API endpoints for interacting with the application.
 - User registration: `POST /register`
 - User login: `POST /auth`
 - Accessing user profile: `GET /users/:id`
+- Getting all vans: `GET /`
 - Creating a new van profile: `POST /vans`
 - Updating a van: `PUT /vans`
 - Deleting a van: `DELETE /vans/:id`
